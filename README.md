@@ -15,8 +15,8 @@ Command to compile the .exe:
 
 Actuallly, the compiled executable won't run, instead it throws an ImportError and I have no clue how to resolve this issue, so if anyone knows how to fix this, feel free to contribute.
 That's the error from the log file:
-```Traceback (most recent call last):
-  File "interfaces.pyw", line 5, in <module>
-  File "zipextimporter.pyo", line 98, in load_module
-ImportError: MemoryLoadLibrary failed loading netifaces.pyd
-```
+
+    Traceback (most recent call last):
+    File "interfaces.pyw", line 5, in <module>
+    File "zipextimporter.pyo", line 98, in load_module
+    ImportError: MemoryLoadLibrary failed loading netifaces.pyd
